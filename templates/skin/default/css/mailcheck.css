@@ -1,0 +1,4 @@
+#email-suggestion {display: none; font-style: italic; font-size: 13px; padding-top: 5px;}
+#email-suggestion a {text-decoration: none; border-bottom: 1px dashed #70AAE0;}
+a.close {color: #aaa; border: none; font-style: normal;}
+a.close:hover {color: #000;}

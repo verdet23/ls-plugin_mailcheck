@@ -1,0 +1,10 @@
+Плагин для LiveStreet
+
+Добавляет при регистрации js проверку почтового домена.
+
+В config/config.php можно указать свой список доменов.
+
+Требования: LiveStreet 0.5, тема на основе jQuery.
+
+Используется jQuery plugin mailcheck
+https://github.com/Kicksend/mailcheck
