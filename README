@@ -4,7 +4,10 @@
 
 В config/config.php можно указать свой список доменов.
 
-Требования: LiveStreet 0.5, тема на основе jQuery.
+Cовместим с LS 0.5.
+
+Для совместимости с LS 0.4 необходимо в /engine/modules/viewer/plugs/
+поместить файл function.json.php от LS 0.5 (не тестировалось)
 
 Используется jQuery plugin mailcheck
 https://github.com/Kicksend/mailcheck
