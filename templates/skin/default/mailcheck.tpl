@@ -5,7 +5,7 @@
 <script type="text/javascript" src="{$sTemplateWebPathPluginMailcheck}js/jquery.mailcheck.min.js"></script>
 <link rel="stylesheet" type="text/css" href="{$sTemplateWebPathPluginMailcheck}css/mailcheck.css" media="all" />
 <script>
-$.noConflict();
+jQuery.noConflict()
 var domains = {json var=$aDomains};
 {literal}
 jQuery(document).ready(function(){
