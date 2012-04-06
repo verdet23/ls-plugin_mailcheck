@@ -7,7 +7,7 @@
 Cовместим с LS 0.5.
 
 Для совместимости с LS 0.4 необходимо в /engine/modules/viewer/plugs/
-поместить файл function.json.php от LS 0.5 (не тестировалось)
+поместить файл function.json.php от LS 0.5
 
 Используется jQuery plugin mailcheck
 https://github.com/Kicksend/mailcheck
