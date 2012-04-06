@@ -6,8 +6,10 @@
 <link rel="stylesheet" type="text/css" href="{$sTemplateWebPathPluginMailcheck}css/mailcheck.css" media="all" />
 <script>
 $.noConflict();
+var domains = {json var=$aDomains};
+{literal}
 jQuery(document).ready(function(){
-    var domains = {json var=$aDomains};
+    
     jQuery('#email-suggestion').insertAfter(jQuery('input[name=mail]'));
 
     jQuery('input[name=mail]').on('focusout', function(){
@@ -30,4 +32,5 @@ jQuery(document).ready(function(){
         });
     });
 });
+{/literal}
 </script>
