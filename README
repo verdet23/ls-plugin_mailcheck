@@ -11,3 +11,10 @@ Cовместим с LS 0.5.
 
 Используется jQuery plugin mailcheck
 https://github.com/Kicksend/mailcheck
+
+Запрос, позволяющий узнать частоту использования почтовых доменов
+
+SELECT substring_index( user_mail, '@', -1 ) , COUNT( * )
+FROM prefix_user
+GROUP BY substring_index( user_mail, '@', -1 )
+ORDER BY COUNT( * ) DESC
